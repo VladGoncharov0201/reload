@@ -101,3 +101,11 @@
     cursor: pointer;
     outline: none;
 }
+
+.all_news {
+    background: url('../img/scroll.jpg') center center repeat;
+}
+
+.news_bg {
+    background-color: white;
+}

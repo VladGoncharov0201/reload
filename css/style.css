@@ -109,3 +109,57 @@
 .news_bg {
     background-color: white;
 }
+
+.news_bg .img_start {
+    position: inline-block;
+    width: 560px;
+    height: 328px;
+    margin: 15px 0px 0px 5px;
+}
+
+.game_news {
+    width: 360px;
+    height: 111px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    margin-left: 45px;
+}
+
+.block_all_news {
+    width: 1100px;
+}
+
+.news_item {
+    margin: 20px 0px 0px 45px;
+    display: flex;
+    align-items: center;
+}
+
+.img_news_item {
+    width: 270px;
+    height: 153px;
+}
+
+.text_news_item {
+    width: 700px;
+    margin-left: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}

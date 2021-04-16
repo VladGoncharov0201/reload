@@ -14,6 +14,10 @@
     background: url('../img/intro.jpg') center center/cover no-repeat;
 }
 
+.header{
+    display: flex;
+}
+
 .logo {
     font-family: PT Sans;
     font-style: normal;
@@ -25,16 +29,35 @@
 }
 
 .header_nav_links {
-    display: inline-block;
+    margin-top: 25px;
 }
 
 .nav__link {
-    display: inline-block;
-    margin: 0 15px;
+    margin: 35px 15px 0px;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
     color: white;
+}
+
+.btn_log_in{
+    width: 65px;
+    height: 65px;
+    margin: 10px 0px 0px 15px;
+    background: url("../img/icons8-вход-в-систему,-в-кружке,-стрелка-вправо-64.png");
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn_registration {
+    width: 65px;
+    height: 65px;
+    margin: 10px 0px 0px 15px;
+    background: url("../img/icons8-редактировать-мужчину-пользователя-64.png");
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
 }
 
 .first {

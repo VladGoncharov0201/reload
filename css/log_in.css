@@ -5,6 +5,46 @@
 }
 
 .container {
-    width: 1140px;
+    width: 500px;
     margin: 0 auto;
+    background-image: linear-gradient(to right, #FF5A5A 19%, #6153FA 80%);
+}
+
+h1 {
+    text-align: center;
+    font-family: PT Sans;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 47px;
+}
+
+.login {
+    width: 250px;
+    margin: 40px auto 15px;
+    font-size: 30px;
+}
+
+.password {
+    width: 300px;
+    margin: 15px 110px;
+    font-size: 30px;
+}
+
+.private {
+    width: 300px;
+    margin: 15px 170px;
+    font-size: 20px;
+}
+
+.correct{
+    width: 100px;
+    height: 50px;
+    margin: 15px 215px;
+    font-size: 30px;
+
+    background: repeating-linear-gradient(45deg, orange , orange  10px, cyan 10px, cyan 20px);
+    box-shadow: 0px 0px 35px #BF589B;
+    border-radius: 57px;
+    cursor: pointer;
+    outline: none;
 }

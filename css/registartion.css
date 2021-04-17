@@ -7,4 +7,119 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    background-image: linear-gradient(to right, #FF5A5A 20%, #6153FA 80%);
+}
+
+h1{
+    text-align: center;
+    font-family: PT Sans;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 47px;
+}
+
+.all {
+    width: 600px;
+    height: 800px;
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 70px;
+}
+
+.registration{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+    width: 300px;
+    height: 50px;
+    margin: 15px auto;
+    font-size: 30px;
+
+    background: repeating-linear-gradient(45deg, orange , orange  10px, cyan 10px, cyan 20px);
+    box-shadow: 0px 0px 35px #BF589B;
+    border-radius: 57px;
+    cursor: pointer;
+    outline: none;
+
+    line-height: 35px;
+}
+
+.gender{
+    margin-right: 30px;
+}
+
+.radio{
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    align-items: center;
+    vertical-align: middle;
+    width: 200px;
+}
+
+.radio label {
+    display: inline-flex;
+    margin-right: 30px;
+}
+
+#agree-check{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 16px;
+    line-height: 33px;
+}
+
+input[type=radio]{
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    outline: none;
+    transition: 0.2s all linear;
+    position: relative;
+    background: lavender;
+    border: 2px solid  rgba(0, 0, 0, 0.5);
+}
+
+input[type=radio]:checked{
+    position: relative;
+    border: 6px solid  rgba(0, 0, 0, 0.5);    
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=tel],
+input[type=email]{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    width: 500px;
+    background-color:lavender;
+    cursor: pointer;
+}
+
+.selection select{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    width: 508px;
+    background-color:lavender;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+    border-radius: 20%;
+    top: 5px;   
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    outline: none;
+    position: relative;
+    background: lavender;
+    border: 2px solid  rgba(0, 0, 0, 0.5);
 }

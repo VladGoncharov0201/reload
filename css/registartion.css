@@ -87,7 +87,7 @@ input[type=radio]{
 
 input[type=radio]:checked{
     position: relative;
-    border: 6px solid  rgba(0, 0, 0, 0.5);    
+    border: 8px solid  rgba(0, 0, 0, 1);    
 }
 
 input[type=text],
